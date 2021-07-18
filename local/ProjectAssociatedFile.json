@@ -1,0 +1,7 @@
+[
+	{
+		"Name": "gtest",
+		"Include": ["gtest"],
+		"Library": ["libgtest.a", "libgtest_main.a"]
+	}
+]
