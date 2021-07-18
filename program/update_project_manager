@@ -7,7 +7,18 @@ then
 fi
 
 path=`cat $HOME/.project_manager.ini`
+<<<<<<< HEAD
 cd $path
 sudo git pull origin master
+=======
+<<<<<<< HEAD
+cd $path
+sudo git pull origin master
+=======
+cd path
+cd ..
+git pull
+>>>>>>> ba5ed9dd99af2c0efcc03e5bf8decbce13d4224e
+>>>>>>> 360ee654658fa87d60e6d315ee7b92976e313431
 
 exit 0
