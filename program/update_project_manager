@@ -1,0 +1,14 @@
+#!/bin/bash
+
+if [ ! -f $HOME/.project_manager.ini ]
+then
+    echo "Can't find Project install path."
+    exit 127
+fi
+
+path=`cat $HOME/.project_manager.ini`
+cd path
+cd ..
+git pull
+
+exit 0
