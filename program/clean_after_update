@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ -f "./project_manager_bin" ]
+then
+    rm -rf ./project_manager_bin
+fi
+
+if [ -f "./update_project_manager" ]
+then
+    rm -f ./update_project_manager
+fi
