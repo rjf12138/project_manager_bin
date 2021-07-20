@@ -42,6 +42,7 @@ else
     echo "Can't download project_manager_bin."
 fi
 
+cd $CURR_DIR
 exec $PROJECT_INSTALL_PATH/project_manager_bin/program/clean_after_update
 
 exit 0
