@@ -43,6 +43,17 @@ else
 fi
 
 cd $CURR_DIR
-exec $PROJECT_INSTALL_PATH/project_manager_bin/program/clean_after_update
+echo "Clean"
+if [ -d "./project_manager_bin" ]
+then
+    rm -rf ./project_manager_bin
+    echo "Remove ./project_manager_bin"
+fi
+
+if [ -f "./update_project_manager" ]
+then
+    rm -f ./update_project_manager
+    echo "Remove ./update_project_manager"
+fi
 
 exit 0
