@@ -1,0 +1,13 @@
+#!/bin/bash
+
+if [ -d "./project_manager_bin" ]
+then
+    rm -rf ./project_manager_bin
+    echo "Remove ./project_manager_bin"
+fi
+
+if [ -f "./update_project_manager" ]
+then
+    rm -f ./update_project_manager
+    echo "Remove ./update_project_manager"
+fi

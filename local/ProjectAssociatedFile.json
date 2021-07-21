@@ -1,7 +1,19 @@
 [
 	{
-		"Name": "gtest",
-		"Include": ["gtest"],
-		"Library": ["libgtest.a", "libgtest_main.a"]
+		"Include": [
+			"gtest"
+		],
+		"Library": [
+			"libgtest.a",
+			"libgtest_main.a"
+		],"Name": "gtest"
+	},{
+		"Include": [
+			"hello_world_sdk.h"
+		],
+		"Library": [
+			"libTestd.a"
+		],
+		"Name": "Test"
 	}
 ]
