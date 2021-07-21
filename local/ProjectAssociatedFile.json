@@ -12,7 +12,7 @@
 			"hello_world_sdk.h"
 		],
 		"Library": [
-			"libTestd.a"
+			"libTest.a"
 		],
 		"Name": "Test"
 	}
