@@ -16,31 +16,35 @@ then
     exec ./update_project_manager
 fi
 
-git clone git@github.com:rjf12138/project_manager_bin.git
-if [ -d ./project_manager_bin ]
+if [ -d $PROJECT_INSTALL_PATH/project_manager_bin ]
 then
-    cp -rf ./project_manager_bin/ $PROJECT_INSTALL_PATH/
     cd $PROJECT_INSTALL_PATH/project_manager_bin
-    # 记录项目安装目录,设置可执行目录
-    project_path=`pwd`
-    echo $project_path > $HOME/.project_manager.ini
-    result=`cat $HOME/.bashrc | grep $project_path/program`
-    echo $result
-    if [ -z "$result" ]
-    then
-        echo "$PATH"
-        echo "$project_path/program"
-        echo "export PATH=$PATH:$project_path/program" >> $HOME/.bashrc
-    fi
-    # 将更新文件进程设为可执行
-    cp ./program/update_project_manager ../
-    chmod u+x ../update_project_manager
-    chmod u+x ./program/clean_after_update
-    chmod u+x ./program/project_v
-    echo "Install successed."
+    git stash
+    git pull origin master
+    git stash pop
 else
-    echo "Can't download project_manager_bin."
+    cd $PROJECT_INSTALL_PATH
+    git clone git@github.com:rjf12138/project_manager_bin.git
 fi
+
+# 添加 git 返回值检查
+
+ # 记录项目安装目录,设置可执行目录
+project_path=`pwd`
+echo $project_path > $HOME/.project_manager.ini
+result=`cat $HOME/.bashrc | grep $project_path/program`
+echo $result
+if [ -z "$result" ]
+then
+    echo "$PATH"
+    echo "$project_path/program"
+    echo "export PATH=$PATH:$project_path/program" >> $HOME/.bashrc
+fi
+# 将更新文件进程设为可执行
+cp ./program/update_project_manager ../
+chmod u+x ../update_project_manager
+chmod u+x ./program/clean_after_update
+chmod u+x ./program/project_v
 
 cd $CURR_DIR
 echo "Clean"
