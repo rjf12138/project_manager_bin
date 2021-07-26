@@ -7,21 +7,5 @@
 			"libgtest.a",
 			"libgtest_main.a"
 		],"Name": "gtest"
-	},{
-		"Include": [
-			"hello_world_sdk.h"
-		],
-		"Library": [
-			"libTest.a"
-		],
-		"Name": "Test"
-	},{
-		"Include": [
-			"hello_world_sdk_2.h"
-		],
-		"Library": [
-			"libTest2d.a"
-		],
-		"Name": "Test2"
 	}
 ]
