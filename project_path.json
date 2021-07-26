@@ -1,14 +1,14 @@
 {
 	"ProjectPaths": [
 		{
-			"Name": "",
-			"Path": "/home/ruanjian/workspace/tmp/test_project_manager/Test/"
-		},{
 			"Name": "Test",
 			"Path": "/home/ruanjian/workspace/tmp/test_project_manager/Test"
+		},{
+			"Name": "Test2",
+			"Path": "/home/ruanjian/workspace/tmp/test_project_manager/Test2"
 		}
 	],"RecentOpenProject": {
-		"Name": "Test",
-		"Path": "/home/ruanjian/workspace/tmp/test_project_manager/Test"
+		"Name": "Test2",
+		"Path": "/home/ruanjian/workspace/tmp/test_project_manager/Test2"
 	}
 }
