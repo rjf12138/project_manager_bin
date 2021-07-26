@@ -25,6 +25,19 @@ then
 else
     cd $PROJECT_INSTALL_PATH
     git clone git@github.com:rjf12138/project_manager_bin.git
+    cd $PROJECT_INSTALL_PATH/project_manager_bin
+    echo "{"                        > $PROJECT_INSTALL_PATH/project_manager_bin/project_path.json
+	echo "    \"ProjectPaths\": ["  >> $PROJECT_INSTALL_PATH/project_manager_bin/project_path.json
+	echo "	   {"                   >> $PROJECT_INSTALL_PATH/project_manager_bin/project_path.json
+	echo "		   \"Name\": \"\"," >> $PROJECT_INSTALL_PATH/project_manager_bin/project_path.json
+	echo "		    \"Path\": \"\"" >> $PROJECT_INSTALL_PATH/project_manager_bin/project_path.json
+	echo "	    }"                  >> $PROJECT_INSTALL_PATH/project_manager_bin/project_path.json
+	echo "    ],\"RecentOpenProject\": {" >> $PROJECT_INSTALL_PATH/project_manager_bin/project_path.json
+	echo "	    \"Name\": \"\","    >> $PROJECT_INSTALL_PATH/project_manager_bin/project_path.json
+	echo "	    \"Path\": \"\""      >> $PROJECT_INSTALL_PATH/project_manager_bin/project_path.json
+	echo "    }"                    >> $PROJECT_INSTALL_PATH/project_manager_bin/project_path.json
+    echo "}"                        >> $PROJECT_INSTALL_PATH/project_manager_bin/project_path.json
+
 fi
 
 # 添加 git 返回值检查
