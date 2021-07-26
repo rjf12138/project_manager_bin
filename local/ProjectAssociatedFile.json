@@ -17,7 +17,7 @@
 		"Name": "Test"
 	},{
 		"Include": [
-			"hello_world_sdk.h"
+			"hello_world_sdk_2.h"
 		],
 		"Library": [
 			"libTest2d.a"
