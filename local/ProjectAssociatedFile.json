@@ -14,7 +14,7 @@
 			"logger.h",
 			"wejson.h"
 		],"Library": [
-			"libbasic.a"
+			"libbasicd.a"
 		],
 		"Name": "basic"
 	}
