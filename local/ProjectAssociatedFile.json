@@ -17,5 +17,13 @@
 			"libbasicd.a"
 		],
 		"Name": "basic"
+	},{
+		"Include": [
+			"algorithm.h"
+		],
+		"Library": [
+			"libalgorithmd.a"
+		],
+		"Name": "algorithm"
 	}
 ]
