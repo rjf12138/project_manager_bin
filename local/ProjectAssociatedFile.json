@@ -25,5 +25,13 @@
 			"libalgorithmd.a"
 		],
 		"Name": "algorithm"
+	},{
+		"Include": [
+			"queue.h"
+		],
+		"Library": [
+			"libdata_structured.a"
+		],
+		"Name": "data_structure"
 	}
 ]
