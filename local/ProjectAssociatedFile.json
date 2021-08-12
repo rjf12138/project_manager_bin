@@ -9,16 +9,6 @@
 		],"Name": "gtest"
 	},{
 		"Include": [
-			"basic_head.h",
-			"byte_buffer.h",
-			"logger.h",
-			"wejson.h"
-		],"Library": [
-			"libbasicd.a"
-		],
-		"Name": "basic"
-	},{
-		"Include": [
 			"algorithm.h"
 		],
 		"Library": [
@@ -33,5 +23,15 @@
 			"libdata_structured.a"
 		],
 		"Name": "data_structure"
+	},{
+		"Include": [
+			"basic_head.h",
+			"byte_buffer.h",
+			"logger.h",
+			"wejson.h"
+		],"Library": [
+			"libbasicd.a"
+		],
+		"Name": "basic"
 	}
 ]
