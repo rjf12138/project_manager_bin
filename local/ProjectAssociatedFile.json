@@ -33,5 +33,13 @@
 			"libdata_structured.a"
 		],
 		"Name": "data_structure"
+	},{
+		"Include": [
+			"system.h"
+		],
+		"Library": [
+			"libsystemd.a"
+		],
+		"Name": "system"
 	}
 ]
