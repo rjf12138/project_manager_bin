@@ -17,14 +17,6 @@
 		"Name": "algorithm"
 	},{
 		"Include": [
-			"queue.h"
-		],
-		"Library": [
-			"libdata_structured.a"
-		],
-		"Name": "data_structure"
-	},{
-		"Include": [
 			"basic_head.h",
 			"byte_buffer.h",
 			"logger.h",
@@ -33,5 +25,13 @@
 			"libbasicd.a"
 		],
 		"Name": "basic"
+	},{
+		"Include": [
+			"queue.h"
+		],
+		"Library": [
+			"libdata_structured.a"
+		],
+		"Name": "data_structure"
 	}
 ]
