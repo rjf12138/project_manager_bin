@@ -45,7 +45,6 @@
 		"Include": [
 			"http_def.h",
 			"http.h",
-			"protocol_def.h",
 			"protocol.h",
 			"websocket.h"
 		],"Library": [
