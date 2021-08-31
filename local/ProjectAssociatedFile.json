@@ -27,14 +27,6 @@
 		"Name": "basic"
 	},{
 		"Include": [
-			"system.h"
-		],
-		"Library": [
-			"libsystemd.a"
-		],
-		"Name": "system"
-	},{
-		"Include": [
 			"http_def.h",
 			"http.h",
 			"protocol.h",
@@ -51,5 +43,13 @@
 			"libdata_structured.a"
 		],
 		"Name": "data_structure"
+	},{
+		"Include": [
+			"system.h"
+		],
+		"Library": [
+			"libsystemd.a"
+		],
+		"Name": "system"
 	}
 ]
