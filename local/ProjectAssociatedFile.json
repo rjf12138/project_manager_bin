@@ -37,19 +37,19 @@
 		"Name": "protocol"
 	},{
 		"Include": [
-			"system.h"
-		],
-		"Library": [
-			"libsystemd.a"
-		],
-		"Name": "system"
-	},{
-		"Include": [
 			"heap.h",
 			"queue.h"
 		],"Library": [
 			"libdata_structured.a"
 		],
 		"Name": "data_structure"
+	},{
+		"Include": [
+			"system.h"
+		],
+		"Library": [
+			"libsystemd.a"
+		],
+		"Name": "system"
 	}
 ]
