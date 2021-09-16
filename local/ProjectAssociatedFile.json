@@ -27,16 +27,6 @@
 		"Name": "basic"
 	},{
 		"Include": [
-			"http_def.h",
-			"http.h",
-			"protocol.h",
-			"websocket.h"
-		],"Library": [
-			"libprotocold.a"
-		],
-		"Name": "protocol"
-	},{
-		"Include": [
 			"heap.h",
 			"queue.h"
 		],"Library": [
@@ -51,5 +41,15 @@
 			"libsystemd.a"
 		],
 		"Name": "system"
+	},{
+		"Include": [
+			"http_def.h",
+			"http.h",
+			"protocol.h",
+			"websocket.h"
+		],"Library": [
+			"libprotocold.a"
+		],
+		"Name": "protocol"
 	}
 ]
