@@ -35,14 +35,6 @@
 		"Name": "data_structure"
 	},{
 		"Include": [
-			"system.h"
-		],
-		"Library": [
-			"libsystemd.a"
-		],
-		"Name": "system"
-	},{
-		"Include": [
 			"http_def.h",
 			"http.h",
 			"protocol.h",
@@ -51,5 +43,13 @@
 			"libprotocold.a"
 		],
 		"Name": "protocol"
+	},{
+		"Include": [
+			"system.h"
+		],
+		"Library": [
+			"libsystemd.a"
+		],
+		"Name": "system"
 	}
 ]
