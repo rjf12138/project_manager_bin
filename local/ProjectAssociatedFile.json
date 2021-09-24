@@ -25,16 +25,6 @@
 		"Name": "data_structure"
 	},{
 		"Include": [
-			"http_def.h",
-			"http.h",
-			"protocol.h",
-			"websocket.h"
-		],"Library": [
-			"libprotocold.a"
-		],
-		"Name": "protocol"
-	},{
-		"Include": [
 			"system.h"
 		],
 		"Library": [
@@ -51,5 +41,15 @@
 			"libbasicd.a"
 		],
 		"Name": "basic"
+	},{
+		"Include": [
+			"http_def.h",
+			"http.h",
+			"protocol.h",
+			"websocket.h"
+		],"Library": [
+			"libprotocold.a"
+		],
+		"Name": "protocol"
 	}
 ]
