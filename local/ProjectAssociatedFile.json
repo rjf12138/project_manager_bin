@@ -33,16 +33,6 @@
 		"Name": "system"
 	},{
 		"Include": [
-			"basic_head.h",
-			"byte_buffer.h",
-			"logger.h",
-			"wejson.h"
-		],"Library": [
-			"libbasicd.a"
-		],
-		"Name": "basic"
-	},{
-		"Include": [
 			"http_def.h",
 			"http.h",
 			"protocol.h",
@@ -59,5 +49,15 @@
 			"libutild.a"
 		],
 		"Name": "util"
+	},{
+		"Include": [
+			"basic_head.h",
+			"byte_buffer.h",
+			"logger.h",
+			"wejson.h"
+		],"Library": [
+			"libbasicd.a"
+		],
+		"Name": "basic"
 	}
 ]
