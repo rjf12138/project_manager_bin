@@ -43,19 +43,19 @@
 		"Name": "basic"
 	},{
 		"Include": [
-			"http_def.h",
-			"protocol.h"
-		],"Library": [
-			"libprotocold.a"
-		],
-		"Name": "protocol"
-	},{
-		"Include": [
 			"system.h"
 		],
 		"Library": [
 			"libsystemd.a"
 		],
 		"Name": "system"
+	},{
+		"Include": [
+			"http_def.h",
+			"protocol.h"
+		],"Library": [
+			"libprotocold.a"
+		],
+		"Name": "protocol"
 	}
 ]
