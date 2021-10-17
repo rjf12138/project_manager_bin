@@ -41,14 +41,6 @@
 		"Name": "system"
 	},{
 		"Include": [
-			"http_def.h",
-			"protocol.h"
-		],"Library": [
-			"libprotocold.a"
-		],
-		"Name": "protocol"
-	},{
-		"Include": [
 			"basic_head.h",
 			"byte_buffer.h",
 			"logger.h",
@@ -57,5 +49,13 @@
 			"libbasicd.a"
 		],
 		"Name": "basic"
+	},{
+		"Include": [
+			"http_def.h",
+			"protocol.h"
+		],"Library": [
+			"libprotocold.a"
+		],
+		"Name": "protocol"
 	}
 ]
