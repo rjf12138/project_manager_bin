@@ -33,14 +33,6 @@
 		"Name": "util"
 	},{
 		"Include": [
-			"system.h"
-		],
-		"Library": [
-			"libsystemd.a"
-		],
-		"Name": "system"
-	},{
-		"Include": [
 			"basic_head.h",
 			"byte_buffer.h",
 			"logger.h",
@@ -57,5 +49,13 @@
 			"libprotocold.a"
 		],
 		"Name": "protocol"
+	},{
+		"Include": [
+			"system.h"
+		],
+		"Library": [
+			"libsystemd.a"
+		],
+		"Name": "system"
 	}
 ]
