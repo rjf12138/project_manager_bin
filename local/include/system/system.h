@@ -134,6 +134,7 @@ private:
     static void* create_func(void *arg);
 
 private:
+    bool is_init_;
 #ifdef __RJF_LINUX__
     pthread_attr_t attr_;
     pthread_t thread_id_;
