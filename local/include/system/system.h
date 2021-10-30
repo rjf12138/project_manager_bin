@@ -135,6 +135,7 @@ private:
 
 private:
 #ifdef __RJF_LINUX__
+    pthread_attr_t attr_;
     pthread_t thread_id_;
 #endif
 };
