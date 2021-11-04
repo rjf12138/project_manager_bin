@@ -25,14 +25,6 @@
 		"Name": "data_structure"
 	},{
 		"Include": [
-			"util.h"
-		],
-		"Library": [
-			"libutild.a"
-		],
-		"Name": "util"
-	},{
-		"Include": [
 			"basic_head.h",
 			"byte_buffer.h",
 			"logger.h",
@@ -57,5 +49,13 @@
 			"libsystemd.a"
 		],
 		"Name": "system"
+	},{
+		"Include": [
+			"util.h"
+		],
+		"Library": [
+			"libutild.a"
+		],
+		"Name": "util"
 	}
 ]
