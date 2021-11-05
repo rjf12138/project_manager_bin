@@ -109,6 +109,7 @@ private:
     Mutex& operator=(const Mutex&) = delete;
 
 private:
+    bool state_;
     int errno_;
 #ifdef __RJF_LINUX__
     pthread_mutex_t *mutex_ptr_;
