@@ -43,19 +43,19 @@
 		"Name": "protocol"
 	},{
 		"Include": [
-			"util.h"
-		],
-		"Library": [
-			"libutild.a"
-		],
-		"Name": "util"
-	},{
-		"Include": [
 			"system.h"
 		],
 		"Library": [
 			"libsystemd.a"
 		],
 		"Name": "system"
+	},{
+		"Include": [
+			"util.h"
+		],
+		"Library": [
+			"libutild.a"
+		],
+		"Name": "util"
 	}
 ]
