@@ -298,6 +298,8 @@ private:
     int thread_move_to_running_map(thread_id_t thread_id);
     // 随机唤醒一个线程
     int thread_move_to_running_map(int thread_cnt);
+    // 调整线程数量
+    int ajust_threads_num(void);
     
     // 打印线程池信息
     static void *print_threadpool_info(void *arg);
