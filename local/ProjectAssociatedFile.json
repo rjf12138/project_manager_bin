@@ -35,14 +35,6 @@
 		"Name": "basic"
 	},{
 		"Include": [
-			"util.h"
-		],
-		"Library": [
-			"libutild.a"
-		],
-		"Name": "util"
-	},{
-		"Include": [
 			"http_def.h",
 			"protocol.h"
 		],"Library": [
@@ -57,5 +49,13 @@
 			"libsystemd.a"
 		],
 		"Name": "system"
+	},{
+		"Include": [
+			"util.h"
+		],
+		"Library": [
+			"libutild.a"
+		],
+		"Name": "util"
 	}
 ]
