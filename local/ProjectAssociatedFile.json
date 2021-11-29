@@ -25,16 +25,6 @@
 		"Name": "data_structure"
 	},{
 		"Include": [
-			"basic_head.h",
-			"byte_buffer.h",
-			"logger.h",
-			"wejson.h"
-		],"Library": [
-			"libbasicd.a"
-		],
-		"Name": "basic"
-	},{
-		"Include": [
 			"http_def.h",
 			"protocol.h"
 		],"Library": [
@@ -57,5 +47,15 @@
 			"libutild.a"
 		],
 		"Name": "util"
+	},{
+		"Include": [
+			"basic_head.h",
+			"byte_buffer.h",
+			"logger.h",
+			"wejson.h"
+		],"Library": [
+			"libbasicd.a"
+		],
+		"Name": "basic"
 	}
 ]
