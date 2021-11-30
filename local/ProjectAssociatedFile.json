@@ -41,16 +41,6 @@
 		"Name": "util"
 	},{
 		"Include": [
-			"basic_head.h",
-			"byte_buffer.h",
-			"logger.h",
-			"wejson.h"
-		],"Library": [
-			"libbasicd.a"
-		],
-		"Name": "basic"
-	},{
-		"Include": [
 			"system.h"
 		],
 		"Library": [
@@ -65,5 +55,15 @@
 			"libreactord.a"
 		],
 		"Name": "reactor"
+	},{
+		"Include": [
+			"basic_head.h",
+			"byte_buffer.h",
+			"logger.h",
+			"wejson.h"
+		],"Library": [
+			"libbasicd.a"
+		],
+		"Name": "basic"
 	}
 ]
