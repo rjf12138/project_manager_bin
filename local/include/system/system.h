@@ -141,6 +141,7 @@ private:
 // 线程回调函数
 #ifdef __RJF_LINUX__
     typedef void *(*thread_callback)(void*);
+    typedef pthread_t thread_id_t;
 #endif
 
 // 通用线程类，直接继承它，设置需要重载的函数
@@ -159,6 +160,8 @@ public:
     virtual int stop_handler(void);
     // 设置开始标识，设置完后线程可以运行
     virtual int start_handler(void);
+    // 获取线程id
+    thread_id_t get_thread_id(void) const {return thread_id_;}
 
 private:
     static void* create_func(void *arg);
@@ -171,7 +174,7 @@ private:
     bool is_init_;
 #ifdef __RJF_LINUX__
     pthread_attr_t attr_;
-    pthread_t thread_id_;
+    thread_id_t thread_id_;
 #endif
 };
 
@@ -209,7 +212,6 @@ enum ThreadState {
 };
 
 class ThreadPool;
-typedef uint64_t thread_id_t;
 class WorkThread : public Thread {
 public:
     WorkThread(ThreadPool *thread_pool, int idle_life = 30);
@@ -226,7 +228,6 @@ public:
     // 继续执行线程
     virtual int resume(void);
 
-    virtual thread_id_t get_thread_id(void) const {return work_thread_id_;}
     virtual ThreadState get_current_state(void) const {return state_;}
 
 private:
@@ -241,7 +242,6 @@ private:
     time_t idle_life_; // 单位：秒
     time_t start_idle_life_;
     ThreadState state_;
-    thread_id_t work_thread_id_;
 
     Task task_;
     Mutex mutex_;
