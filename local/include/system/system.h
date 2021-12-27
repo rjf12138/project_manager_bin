@@ -144,6 +144,7 @@ private:
     typedef pthread_t thread_id_t;
 #endif
 
+
 // 通用线程类，直接继承它，设置需要重载的函数
 class Thread : public basic::Logger {
 public:
@@ -160,8 +161,12 @@ public:
     virtual int stop_handler(void);
     // 设置开始标识，设置完后线程可以运行
     virtual int start_handler(void);
-    // 获取线程id
+
+    // 如何处理结构体的线程id
+    // 获取当前线程类id
     thread_id_t get_thread_id(void) const {return thread_id_;}
+    // 获取当前运行的线程id
+    static thread_id_t current_thread_id(void);
 
 private:
     static void* create_func(void *arg);
