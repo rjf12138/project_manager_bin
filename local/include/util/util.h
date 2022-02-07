@@ -126,9 +126,9 @@ public:
     obj_id_t id(void) const {return id_;}
 
     // 消息收到时回调函数
-    virtual int msg_handler(obj_id_t sender, const basic::ByteBuffer &msg);
+    virtual int msg_handler(obj_id_t sender, basic::ByteBuffer &msg);
     // 发送消息（使用当前消息类作为发送ID）
-    int send_msg(obj_id_t recv_id, const basic::ByteBuffer &msg);
+    int send_msg(obj_id_t recv_id, basic::ByteBuffer &msg);
 
     // 检查对象 ID 是否存在
     static bool check_id(const obj_id_t &id);
