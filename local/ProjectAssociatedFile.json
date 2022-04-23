@@ -43,14 +43,6 @@
 		"Name": "system"
 	},{
 		"Include": [
-			"reactor_define.h",
-			"reactor.h"
-		],"Library": [
-			"libreactord.a"
-		],
-		"Name": "reactor"
-	},{
-		"Include": [
 			"http_def.h",
 			"protocol.h"
 		],"Library": [
@@ -65,5 +57,13 @@
 			"libutild.a"
 		],
 		"Name": "util"
+	},{
+		"Include": [
+			"reactor_define.h",
+			"reactor.h"
+		],"Library": [
+			"libreactord.a"
+		],
+		"Name": "reactor"
 	}
 ]
