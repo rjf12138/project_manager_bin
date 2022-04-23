@@ -43,14 +43,6 @@
 		"Name": "system"
 	},{
 		"Include": [
-			"util.h"
-		],
-		"Library": [
-			"libutild.a"
-		],
-		"Name": "util"
-	},{
-		"Include": [
 			"reactor_define.h",
 			"reactor.h"
 		],"Library": [
@@ -65,5 +57,13 @@
 			"libprotocold.a"
 		],
 		"Name": "protocol"
+	},{
+		"Include": [
+			"util.h"
+		],
+		"Library": [
+			"libutild.a"
+		],
+		"Name": "util"
 	}
 ]
