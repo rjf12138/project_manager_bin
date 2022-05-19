@@ -9,11 +9,61 @@
 		],"Name": "gtest"
 	},{
 		"Include": [
-			"hello_world_sdk.h"
+			"algorithm.h"
 		],
 		"Library": [
-			"libTest.a"
+			"libalgorithmd.a"
 		],
-		"Name": "Test"
+		"Name": "algorithm"
+	},{
+		"Include": [
+			"basic_head.h",
+			"byte_buffer.h",
+			"logger.h",
+			"wejson.h"
+		],"Library": [
+			"libbasicd.a"
+		],
+		"Name": "basic"
+	},{
+		"Include": [
+			"heap.h",
+			"queue.h"
+		],"Library": [
+			"libdata_structured.a"
+		],
+		"Name": "data_structure"
+	},{
+		"Include": [
+			"http_def.h",
+			"protocol.h"
+		],"Library": [
+			"libprotocold.a"
+		],
+		"Name": "protocol"
+	},{
+		"Include": [
+			"util.h"
+		],
+		"Library": [
+			"libutild.a"
+		],
+		"Name": "util"
+	},{
+		"Include": [
+			"system.h"
+		],
+		"Library": [
+			"libsystemd.a"
+		],
+		"Name": "system"
+	},{
+		"Include": [
+			"reactor_define.h",
+			"reactor.h"
+		],"Library": [
+			"libreactord.a"
+		],
+		"Name": "reactor"
 	}
 ]
