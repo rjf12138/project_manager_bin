@@ -44,14 +44,6 @@
 		"Name": "basic"
 	},{
 		"Include": [
-			"http_def.h",
-			"protocol.h"
-		],"Library": [
-			"libprotocold.a"
-		],
-		"Name": "protocol"
-	},{
-		"Include": [
 			"heap.h",
 			"queue.h"
 		],"Library": [
@@ -66,5 +58,13 @@
 			"libalgorithmd.a"
 		],
 		"Name": "algorithm"
+	},{
+		"Include": [
+			"http_def.h",
+			"protocol.h"
+		],"Library": [
+			"libprotocold.a"
+		],
+		"Name": "protocol"
 	}
 ]
