@@ -60,9 +60,9 @@
 		"Name": "data_structure"
 	},{
 		"Include": [
-			"ncurses",
 			"system.h"
-		],"Library": [
+		],
+		"Library": [
 			"libsystemd.a"
 		],
 		"Name": "system"
