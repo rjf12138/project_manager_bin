@@ -17,14 +17,6 @@
 		"Name": "algorithm"
 	},{
 		"Include": [
-			"heap.h",
-			"queue.h"
-		],"Library": [
-			"libdata_structured.a"
-		],
-		"Name": "data_structure"
-	},{
-		"Include": [
 			"util.h"
 		],
 		"Library": [
@@ -66,5 +58,13 @@
 			"libprotocold.a"
 		],
 		"Name": "protocol"
+	},{
+		"Include": [
+			"heap.h",
+			"queue.h"
+		],"Library": [
+			"libdata_structured.a"
+		],
+		"Name": "data_structure"
 	}
 ]
