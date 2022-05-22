@@ -54,7 +54,7 @@ int Queue<T>::pop(T &data)
 template<class T> 
 inline int Queue<T>::size(void) const
 {
-    return static<int>(queue_.size());
+    return static_cast<int>(queue_.size());
 }
 
 template<class T>
