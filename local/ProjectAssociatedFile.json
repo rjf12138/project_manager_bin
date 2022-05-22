@@ -17,16 +17,6 @@
 		"Name": "algorithm"
 	},{
 		"Include": [
-			"basic_head.h",
-			"byte_buffer.h",
-			"logger.h",
-			"wejson.h"
-		],"Library": [
-			"libbasicd.a"
-		],
-		"Name": "basic"
-	},{
-		"Include": [
 			"heap.h",
 			"queue.h"
 		],"Library": [
@@ -65,5 +55,16 @@
 			"libreactord.a"
 		],
 		"Name": "reactor"
+	},{
+		"Include": [
+			"basic_head.h",
+			"byte_buffer.h",
+			"debug.h",
+			"logger.h",
+			"wejson.h"
+		],"Library": [
+			"libbasicd.a"
+		],
+		"Name": "basic"
 	}
 ]
