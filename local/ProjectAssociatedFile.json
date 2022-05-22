@@ -9,14 +9,6 @@
 		],"Name": "gtest"
 	},{
 		"Include": [
-			"algorithm.h"
-		],
-		"Library": [
-			"libalgorithmd.a"
-		],
-		"Name": "algorithm"
-	},{
-		"Include": [
 			"util.h"
 		],
 		"Library": [
@@ -66,5 +58,13 @@
 			"libdata_structured.a"
 		],
 		"Name": "data_structure"
+	},{
+		"Include": [
+			"algorithm.h"
+		],
+		"Library": [
+			"libalgorithmd.a"
+		],
+		"Name": "algorithm"
 	}
 ]
