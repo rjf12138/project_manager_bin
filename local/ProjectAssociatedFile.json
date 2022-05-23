@@ -9,17 +9,6 @@
 		],"Name": "gtest"
 	},{
 		"Include": [
-			"basic_head.h",
-			"byte_buffer.h",
-			"debug.h",
-			"logger.h",
-			"wejson.h"
-		],"Library": [
-			"libbasicd.a"
-		],
-		"Name": "basic"
-	},{
-		"Include": [
 			"algorithm.h"
 		],
 		"Library": [
@@ -74,5 +63,16 @@
 			"libinvestmentd.a"
 		],
 		"Name": "investment"
+	},{
+		"Include": [
+			"basic_head.h",
+			"byte_buffer.h",
+			"debug.h",
+			"logger.h",
+			"wejson.h"
+		],"Library": [
+			"libbasicd.a"
+		],
+		"Name": "basic"
 	}
 ]
