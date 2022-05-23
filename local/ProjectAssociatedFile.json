@@ -33,17 +33,6 @@
 		"Name": "investment"
 	},{
 		"Include": [
-			"basic_head.h",
-			"byte_buffer.h",
-			"debug.h",
-			"logger.h",
-			"wejson.h"
-		],"Library": [
-			"libbasicd.a"
-		],
-		"Name": "basic"
-	},{
-		"Include": [
 			"http_def.h",
 			"protocol.h"
 		],"Library": [
@@ -74,5 +63,16 @@
 			"libreactord.a"
 		],
 		"Name": "reactor"
+	},{
+		"Include": [
+			"basic_head.h",
+			"byte_buffer.h",
+			"debug.h",
+			"logger.h",
+			"wejson.h"
+		],"Library": [
+			"libbasicd.a"
+		],
+		"Name": "basic"
 	}
 ]
