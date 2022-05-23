@@ -66,5 +66,13 @@
 			"libreactord.a"
 		],
 		"Name": "reactor"
+	},{
+		"Include": [
+			"get_stocks_info.h",
+			"stock_define.h"
+		],"Library": [
+			"libinvestmentd.a"
+		],
+		"Name": "investment"
 	}
 ]
