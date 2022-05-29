@@ -52,14 +52,6 @@
 		"Name": "basic"
 	},{
 		"Include": [
-			"reactor_define.h",
-			"reactor.h"
-		],"Library": [
-			"libreactord.a"
-		],
-		"Name": "reactor"
-	},{
-		"Include": [
 			"system.h"
 		],
 		"Library": [
@@ -74,5 +66,13 @@
 			"libutild.a"
 		],
 		"Name": "util"
+	},{
+		"Include": [
+			"reactor_define.h",
+			"reactor.h"
+		],"Library": [
+			"libreactord.a"
+		],
+		"Name": "reactor"
 	}
 ]
