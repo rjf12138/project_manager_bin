@@ -9,14 +9,6 @@
 		],"Name": "gtest"
 	},{
 		"Include": [
-			"algorithm.h"
-		],
-		"Library": [
-			"libalgorithmd.a"
-		],
-		"Name": "algorithm"
-	},{
-		"Include": [
 			"heap.h",
 			"queue.h"
 		],"Library": [
@@ -74,5 +66,13 @@
 			"libsystemd.a"
 		],
 		"Name": "system"
+	},{
+		"Include": [
+			"algorithm.h"
+		],
+		"Library": [
+			"libalgorithmd.a"
+		],
+		"Name": "algorithm"
 	}
 ]
