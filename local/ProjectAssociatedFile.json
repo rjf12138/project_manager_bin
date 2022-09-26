@@ -60,19 +60,19 @@
 		"Name": "reactor"
 	},{
 		"Include": [
-			"system.h"
-		],
-		"Library": [
-			"libsystemd.a"
-		],
-		"Name": "system"
-	},{
-		"Include": [
 			"algorithm.h"
 		],
 		"Library": [
 			"libalgorithmd.a"
 		],
 		"Name": "algorithm"
+	},{
+		"Include": [
+			"system.h"
+		],
+		"Library": [
+			"libsystemd.a"
+		],
+		"Name": "system"
 	}
 ]
