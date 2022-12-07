@@ -9,14 +9,6 @@
 		],"Name": "gtest"
 	},{
 		"Include": [
-			"heap.h",
-			"queue.h"
-		],"Library": [
-			"libdata_structured.a"
-		],
-		"Name": "data_structure"
-	},{
-		"Include": [
 			"get_stocks_info.h",
 			"stock_define.h"
 		],"Library": [
@@ -74,5 +66,16 @@
 			"libbasicd.a"
 		],
 		"Name": "basic"
+	},{
+		"Include": [
+			"data_struct.h",
+			"double_list.h",
+			"heap.h",
+			"queue.h",
+			"skip_list.h"
+		],"Library": [
+			"libdata_structured.a"
+		],
+		"Name": "data_structure"
 	}
 ]
