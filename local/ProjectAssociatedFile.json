@@ -49,17 +49,6 @@
 		"Name": "algorithm"
 	},{
 		"Include": [
-			"basic_head.h",
-			"byte_buffer.h",
-			"debug.h",
-			"logger.h",
-			"wejson.h"
-		],"Library": [
-			"libbasicd.a"
-		],
-		"Name": "basic"
-	},{
-		"Include": [
 			"system.h"
 		],
 		"Library": [
@@ -77,5 +66,16 @@
 			"libdata_structured.a"
 		],
 		"Name": "data_structure"
+	},{
+		"Include": [
+			"basic_head.h",
+			"byte_buffer.h",
+			"debug.h",
+			"logger.h",
+			"wejson.h"
+		],"Library": [
+			"libbasicd.a"
+		],
+		"Name": "basic"
 	}
 ]
