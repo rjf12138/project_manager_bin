@@ -17,14 +17,6 @@
 		"Name": "investment"
 	},{
 		"Include": [
-			"http_def.h",
-			"protocol.h"
-		],"Library": [
-			"libprotocold.a"
-		],
-		"Name": "protocol"
-	},{
-		"Include": [
 			"util.h"
 		],
 		"Library": [
@@ -77,5 +69,13 @@
 			"libbasicd.a"
 		],
 		"Name": "basic"
+	},{
+		"Include": [
+			"http_def.h",
+			"protocol.h"
+		],"Library": [
+			"libprotocold.a"
+		],
+		"Name": "protocol"
 	}
 ]
