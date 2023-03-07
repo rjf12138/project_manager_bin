@@ -60,6 +60,14 @@
 		"Name": "data_structure"
 	},{
 		"Include": [
+			"system.h"
+		],
+		"Library": [
+			"libsystemd.a"
+		],
+		"Name": "system"
+	},{
+		"Include": [
 			"basic_head.h",
 			"byte_buffer.h",
 			"debug.h",
@@ -69,13 +77,5 @@
 			"libbasicd.a"
 		],
 		"Name": "basic"
-	},{
-		"Include": [
-			"system.h"
-		],
-		"Library": [
-			"libsystemd.a"
-		],
-		"Name": "system"
 	}
 ]
