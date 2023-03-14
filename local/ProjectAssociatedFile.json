@@ -25,17 +25,6 @@
 		"Name": "algorithm"
 	},{
 		"Include": [
-			"data_struct.h",
-			"double_list.h",
-			"heap.h",
-			"queue.h",
-			"skip_list.h"
-		],"Library": [
-			"libdata_structured.a"
-		],
-		"Name": "data_structure"
-	},{
-		"Include": [
 			"http_def.h",
 			"protocol.h"
 		],"Library": [
@@ -77,5 +66,16 @@
 			"libsystemd.a"
 		],
 		"Name": "system"
+	},{
+		"Include": [
+			"data_struct.h",
+			"double_list.h",
+			"heap.h",
+			"queue.h",
+			"skip_list.h"
+		],"Library": [
+			"libdata_structured.a"
+		],
+		"Name": "data_structure"
 	}
 ]
