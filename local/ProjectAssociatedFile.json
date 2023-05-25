@@ -17,14 +17,6 @@
 		"Name": "investment"
 	},{
 		"Include": [
-			"algorithm.h"
-		],
-		"Library": [
-			"libalgorithmd.a"
-		],
-		"Name": "algorithm"
-	},{
-		"Include": [
 			"http_def.h",
 			"protocol.h"
 		],"Library": [
@@ -79,5 +71,13 @@
 			"libbasicd.a"
 		],
 		"Name": "basic"
+	},{
+		"Include": [
+			"algorithm.h"
+		],
+		"Library": [
+			"libalgorithmd.a"
+		],
+		"Name": "algorithm"
 	}
 ]
