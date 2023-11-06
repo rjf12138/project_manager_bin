@@ -60,6 +60,14 @@
 		"Name": "system"
 	},{
 		"Include": [
+			"algorithm.h"
+		],
+		"Library": [
+			"libalgorithmd.a"
+		],
+		"Name": "algorithm"
+	},{
+		"Include": [
 			"basic_head.h",
 			"byte_buffer.h",
 			"debug.h",
@@ -71,13 +79,5 @@
 			"libbasicd.a"
 		],
 		"Name": "basic"
-	},{
-		"Include": [
-			"algorithm.h"
-		],
-		"Library": [
-			"libalgorithmd.a"
-		],
-		"Name": "algorithm"
 	}
 ]
