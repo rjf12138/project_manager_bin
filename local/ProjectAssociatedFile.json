@@ -25,14 +25,6 @@
 		"Name": "protocol"
 	},{
 		"Include": [
-			"reactor_define.h",
-			"reactor.h"
-		],"Library": [
-			"libreactord.a"
-		],
-		"Name": "reactor"
-	},{
-		"Include": [
 			"util.h"
 		],
 		"Library": [
@@ -79,5 +71,13 @@
 			"libsystemd.a"
 		],
 		"Name": "system"
+	},{
+		"Include": [
+			"reactor_define.h",
+			"reactor.h"
+		],"Library": [
+			"libreactord.a"
+		],
+		"Name": "reactor"
 	}
 ]
