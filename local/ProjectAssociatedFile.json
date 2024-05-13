@@ -65,19 +65,19 @@
 		"Name": "basic"
 	},{
 		"Include": [
-			"reactor_define.h",
-			"reactor.h"
-		],"Library": [
-			"libreactord.a"
-		],
-		"Name": "reactor"
-	},{
-		"Include": [
 			"system.h"
 		],
 		"Library": [
 			"libsystemd.a"
 		],
 		"Name": "system"
+	},{
+		"Include": [
+			"reactor_define.h",
+			"reactor.h"
+		],"Library": [
+			"libreactord.a"
+		],
+		"Name": "reactor"
 	}
 ]
