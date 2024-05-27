@@ -149,7 +149,8 @@ private:
 private:
     int errno_;
     bool is_show_lock_info_;
-    bool is_locked;
+    bool is_locked_;
+    mtime_t lock_id_;
 #ifdef __RJF_LINUX__
     pthread_mutex_t *mutex_ptr_;
 #endif
