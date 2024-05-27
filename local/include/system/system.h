@@ -130,12 +130,12 @@ public:
 /////////////////////////////// 互斥量 /////////////////////////////////////////////
 class Mutex : public basic::Logger {
 public:
-    Mutex(void);
+    Mutex(bool is_show_lock_info = false);
     virtual ~Mutex(void);
 
-    virtual int lock(void);
-    virtual int trylock(void);
-    virtual int unlock(void);
+    virtual int lock(const std::string& func_pos = __FUNCTION__, int pos = __LINE__);
+    virtual int trylock(const std::string& func_pos = __FUNCTION__, int pos = __LINE__);
+    virtual int unlock(const std::string& func_pos = __FUNCTION__, int pos = __LINE__);
     virtual int get_errno(void) { return errno_;}
 
 #ifdef __RJF_LINUX__
@@ -148,6 +148,7 @@ private:
 
 private:
     int errno_;
+    bool is_show_lock_info_;
 #ifdef __RJF_LINUX__
     pthread_mutex_t *mutex_ptr_;
 #endif
