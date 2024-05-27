@@ -156,6 +156,10 @@ private:
 #endif
 };
 
+#define MUTEX_LOCK(mutex) (mutex.lock(__FILE__, __LINE__))
+#define MUTEX_TRY_LOCK(mutex) (mutex.try_lock(__FILE__, __LINE__))
+#define MUTEX_UNLOCK(mutex) (mutex.unlock(__FILE__, __LINE__))
+
 //////////////////////////////////////////////////////////////////////////////////////
 template<class T>
 class Atomic {
