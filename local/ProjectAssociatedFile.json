@@ -25,14 +25,6 @@
 		"Name": "protocol"
 	},{
 		"Include": [
-			"util.h"
-		],
-		"Library": [
-			"libutild.a"
-		],
-		"Name": "util"
-	},{
-		"Include": [
 			"data_struct.h",
 			"double_list.h",
 			"heap.h",
@@ -79,5 +71,13 @@
 			"libsystemd.a"
 		],
 		"Name": "system"
+	},{
+		"Include": [
+			"util.h"
+		],
+		"Library": [
+			"libutild.a"
+		],
+		"Name": "util"
 	}
 ]
