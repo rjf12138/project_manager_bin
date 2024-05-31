@@ -73,6 +73,7 @@
 		"Name": "protocol"
 	},{
 		"Include": [
+			"linux_reactor.h",
 			"reactor_define.h",
 			"reactor.h"
 		],"Library": [
