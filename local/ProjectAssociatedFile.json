@@ -49,14 +49,6 @@
 		"Name": "basic"
 	},{
 		"Include": [
-			"system.h"
-		],
-		"Library": [
-			"libsystemd.a"
-		],
-		"Name": "system"
-	},{
-		"Include": [
 			"util.h"
 		],
 		"Library": [
@@ -80,5 +72,13 @@
 			"libreactord.a"
 		],
 		"Name": "reactor"
+	},{
+		"Include": [
+			"system.h"
+		],
+		"Library": [
+			"libsystemd.a"
+		],
+		"Name": "system"
 	}
 ]
