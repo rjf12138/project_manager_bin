@@ -36,19 +36,6 @@
 		"Name": "algorithm"
 	},{
 		"Include": [
-			"basic_head.h",
-			"byte_buffer.h",
-			"debug.h",
-			"err_handle.h",
-			"logger.h",
-			"process_control.h",
-			"wejson.h"
-		],"Library": [
-			"libbasicd.a"
-		],
-		"Name": "basic"
-	},{
-		"Include": [
 			"util.h"
 		],
 		"Library": [
@@ -80,5 +67,18 @@
 			"libreactord.a"
 		],
 		"Name": "reactor"
+	},{
+		"Include": [
+			"basic_head.h",
+			"byte_buffer.h",
+			"debug.h",
+			"err_handle.h",
+			"logger.h",
+			"process_control.h",
+			"wejson.h"
+		],"Library": [
+			"libbasicd.a"
+		],
+		"Name": "basic"
 	}
 ]
