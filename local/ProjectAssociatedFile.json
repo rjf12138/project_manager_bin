@@ -52,14 +52,6 @@
 		"Name": "protocol"
 	},{
 		"Include": [
-			"system.h"
-		],
-		"Library": [
-			"libsystemd.a"
-		],
-		"Name": "system"
-	},{
-		"Include": [
 			"linux_reactor.h",
 			"reactor_define.h",
 			"reactor.h"
@@ -80,5 +72,13 @@
 			"libbasicd.a"
 		],
 		"Name": "basic"
+	},{
+		"Include": [
+			"system.h"
+		],
+		"Library": [
+			"libsystemd.a"
+		],
+		"Name": "system"
 	}
 ]
