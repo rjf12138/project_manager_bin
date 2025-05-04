@@ -1,7 +1,84 @@
 [
 	{
-		"Name": "gtest",
-		"Include": ["gtest"],
-		"Library": ["libgtest.a", "libgtest_main.a"]
+		"Include": [
+			"gtest"
+		],
+		"Library": [
+			"libgtest.a",
+			"libgtest_main.a"
+		],"Name": "gtest"
+	},{
+		"Include": [
+			"get_stocks_info.h",
+			"stock_define.h"
+		],"Library": [
+			"libinvestmentd.a"
+		],
+		"Name": "investment"
+	},{
+		"Include": [
+			"data_struct.h",
+			"double_list.h",
+			"heap.h",
+			"queue.h",
+			"skip_list.h"
+		],"Library": [
+			"libdata_structured.a"
+		],
+		"Name": "data_structure"
+	},{
+		"Include": [
+			"algorithm.h"
+		],
+		"Library": [
+			"libalgorithmd.a"
+		],
+		"Name": "algorithm"
+	},{
+		"Include": [
+			"util.h"
+		],
+		"Library": [
+			"libutild.a"
+		],
+		"Name": "util"
+	},{
+		"Include": [
+			"http_def.h",
+			"protocol.h"
+		],"Library": [
+			"libprotocold.a"
+		],
+		"Name": "protocol"
+	},{
+		"Include": [
+			"linux_reactor.h",
+			"reactor_define.h",
+			"reactor.h"
+		],"Library": [
+			"libreactord.a"
+		],
+		"Name": "reactor"
+	},{
+		"Include": [
+			"basic_head.h",
+			"byte_buffer.h",
+			"debug.h",
+			"err_handle.h",
+			"logger.h",
+			"process_control.h",
+			"wejson.h"
+		],"Library": [
+			"libbasicd.a"
+		],
+		"Name": "basic"
+	},{
+		"Include": [
+			"system.h"
+		],
+		"Library": [
+			"libsystemd.a"
+		],
+		"Name": "system"
 	}
 ]
