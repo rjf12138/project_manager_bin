@@ -52,15 +52,6 @@
 		"Name": "protocol"
 	},{
 		"Include": [
-			"linux_reactor.h",
-			"reactor_define.h",
-			"reactor.h"
-		],"Library": [
-			"libreactord.a"
-		],
-		"Name": "reactor"
-	},{
-		"Include": [
 			"basic_head.h",
 			"byte_buffer.h",
 			"debug.h",
@@ -80,5 +71,14 @@
 			"libsystemd.a"
 		],
 		"Name": "system"
+	},{
+		"Include": [
+			"linux_reactor.h",
+			"reactor_define.h",
+			"reactor.h"
+		],"Library": [
+			"libreactord.a"
+		],
+		"Name": "reactor"
 	}
 ]
